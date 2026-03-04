@@ -1,0 +1,38 @@
+[
+  {
+    "product_id": 101,
+    "product_name": "Bamboo Toothbrush (Pack of 4)",
+    "product_price": 299,
+    "image": "https://cdn.shopify.com/s/files/1/0817/9564/5741/files/CopyofCopyofArtboard8.jpg?v=1762432096"
+  },
+  {
+    "product_id": 102,
+    "product_name": "Reusable Cotton Produce Bags",
+    "product_price": 450,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkmUADtmYey8Z3adZe599AclCz9MkrPAOFFw&s"
+  },
+  {
+    "product_id": 103,
+    "product_name": "Stainless Steel Straw Set",
+    "product_price": 349,
+    "image": "https://images.unsplash.com/photo-1621263764928-df1444c5e859?w=400&h=400&fit=crop"
+  },
+  {
+    "product_id": 104,
+    "product_name": "Organic Jute Shopping Tote",
+    "product_price": 599,
+    "image": "https://dhoraindia.in/cdn/shop/products/e8011652-55b4-4159-a1dd-93d6c3602db7.jpg?v=1655384531&width=1080"
+  },
+  {
+    "product_id": 105,
+    "product_name": "Natural Loofah Sponge",
+    "product_price": 199,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMJItc8a3fVHqFTB3UnvMK0EGZUEuS1gOdEA&s"
+  },
+  {
+    "product_id": 106,
+    "product_name": "Beeswax Food Wraps (3 Pack)",
+    "product_price": 549,
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=400&h=400&fit=crop"
+  }
+]
