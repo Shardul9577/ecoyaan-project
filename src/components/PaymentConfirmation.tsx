@@ -93,8 +93,13 @@ export function PaymentConfirmation() {
   const router = useRouter();
   const { cart, shippingAddress, setCart, setShippingAddress } = useCheckout();
   const [isPaying, setIsPaying] = useState(false);
+  const [hasPaid, setHasPaid] = useState(false);
 
   useEffect(() => {
+    // If payment has been completed, don't redirect away from this page
+    // while the user is being sent to the success screen.
+    if (hasPaid) return;
+
     if (cart === null) {
       router.replace("/cart");
       return;
@@ -102,10 +107,11 @@ export function PaymentConfirmation() {
     if (shippingAddress === null) {
       router.replace("/checkout/shipping");
     }
-  }, [cart, shippingAddress, router]);
+  }, [cart, shippingAddress, router, hasPaid]);
 
   const handlePay = async () => {
     setIsPaying(true);
+    setHasPaid(true);
     // Simulate payment processing
     await new Promise((resolve) => setTimeout(resolve, 1200));
     // Clear checkout state after successful "payment"
